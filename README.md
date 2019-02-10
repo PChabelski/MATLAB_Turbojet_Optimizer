@@ -5,6 +5,9 @@ This code was developed by Patrick Chabelski in February 2016 for AER510, at UTI
 The purpose of this code was to optimize an aircraft engine based on customer (theoretical) performance and const-function constraints.
 The controllable parameters for this analysis include core compression ratio (pi_c), fan compression ratio (pi_f) and bypass ratio (beta).
 
+To run: Download all .m files to the same directory, run AER510_Project1_Main.m script.
+Developed using MATLAB 2016a, requires MATLAB fsolver function. 
+
 AER510_Project1_Main.m initializes the analysis variables, and contains all relevant jet engine performance equations to be solved.
 The problem was set up such that three parameters could be modified through a MATLAB optimizer (fsolve) in order to solve the equations.
 A spectrum of results is derived for various bypass ratio and compressor ratio configurations, with the subsequent cost functions being used to determine a solution.
